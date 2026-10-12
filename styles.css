@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   padding: 2rem;
   background-color: #04c554;
   background-image: url('assets/HALO.jpeg');
