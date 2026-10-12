@@ -1,0 +1,167 @@
+/* ==== Global ==== */
+body {
+  margin: 0;
+  background-color: #000;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ==== Encabezado (header) ==== */
+.principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: #04c554;
+  background-image: url('assets/HALO.jpeg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.principal h1 {
+  font-size: 3rem;
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  color: #ffffffa2;
+  text-shadow:
+    0 0 5px rgba(0, 255, 100, 0.8),
+    0 0 15px rgba(0, 255, 100, 0.5),
+    0 0 30px rgba(0, 255, 100, 0.3);
+}
+
+.foto {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  border: 3px solid #0014c9;
+}
+
+/* ==== Navegación ==== */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  color: #ffffffa2;
+  box-shadow:
+    0 0 5px rgba(0, 255, 100, 0.8),
+    0 0 15px rgba(0, 255, 100, 0.5),
+    0 0 30px rgba(0, 255, 100, 0.3);
+}
+
+nav a {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.8rem;
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ==== Página Inicio (tarjeta de portada) ==== */
+#inicio-page .tarjeta {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 24px;
+  box-shadow:
+    0px 0px 60px rgba(28, 255, 96, 0.2),
+    0 0 40px rgba(133, 255, 143, 0.1),
+    -10px 0 60px rgba(166, 255, 125, 0.08);
+  text-align: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#inicio-page .tarjeta h1 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#inicio-page .datos p {
+  color: #6200ff;
+  margin: 0.3rem 0;
+}
+
+#inicio-page .datos span {
+  font-weight: bold;
+  color: #fff;
+  text-shadow:
+    0 0 5px rgba(0, 255, 100, 0.8),
+    0 0 15px rgba(0, 255, 100, 0.5),
+    0 0 30px rgba(0, 255, 100, 0.3);
+}
+
+/* ==== Página Acerca ==== */
+#acerca-page .tarjeta {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow:
+    0 4px 60px rgba(152, 255, 121, 0.15),
+    0 0 60px rgba(133, 255, 143, 0.1),
+    -4px 0 60px rgba(166, 255, 125, 0.08);
+  text-align: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#acerca-page .tarjeta h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  text-shadow:
+    0 0 5px rgba(0, 255, 100, 0.8),
+    0 0 15px rgba(0, 255, 100, 0.5),
+    0 0 30px rgba(0, 255, 100, 0.3);
+}
+
+#acerca-page .pasatiempos h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  color: #fff;
+  text-shadow:
+    0 0 5px rgba(0, 255, 100, 0.8),
+    0 0 15px rgba(0, 255, 100, 0.5),
+    0 0 30px rgba(0, 255, 100, 0.3);
+}
+
+#acerca-page .pasatiempos h3 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  text-align: justify;
+  color: #b48edf;
+  text-shadow:
+    0 0 5px rgba(180, 60, 255, 0.8),
+    0 0 15px rgba(180, 60, 255, 0.5),
+    0 0 30px rgba(180, 60, 255, 0.3);
+}
+
+#acerca-page .pasatiempos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+  text-align: left;
+}
+
+#acerca-page .pasatiempos li {
+  padding: 0.4rem 0;
+  color: #b48edf;
+  text-shadow:
+    0 0 5px rgba(180, 60, 255, 0.8),
+    0 0 15px rgba(180, 60, 255, 0.5),
+    0 0 30px rgba(180, 60, 255, 0.3);
+}
+
+#acerca-page .pasatiempos li::before {
+  content: "• ";
+  color: rgb(26, 128, 5);
+  font-weight: bold;
+}
